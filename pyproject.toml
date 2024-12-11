@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "qrng"
+version = "0.1.0"
+description = ""
+authors = ["Jacob Valdez <jacob@deepshard.org>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
